@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ibrahim Lau Provision Shop</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="icon" type="image/png" href="logo.png">
 </head>
 <body>
@@ -12,83 +16,362 @@
   <!-- ===== NAVIGATION BAR ===== -->
   <header>
     <nav class="navbar">
-      <div class="nav-left">
-        <img src="logo.png" alt="Ibrahim Lau Logo" class="logo">
-        <a href="#" class="nav-logo">Ibrahim Lau Shop</a>
-      </div>
-      <ul class="nav-menu">
-        <li><a href="#home" class="nav-link">Home</a></li>
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#products" class="nav-link">Products</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
-      </ul>
-      <div class="hamburger">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
+      <div class="nav-container">
+        <div class="nav-left">
+          <img src="logo.png" alt="Ibrahim Lau Logo" class="logo">
+          <a href="#" class="nav-logo">Ibrahim Lau Shop</a>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#products" class="nav-link">Products</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </div>
     </nav>
   </header>
 
   <!-- ===== HERO SECTION ===== -->
   <section id="home" class="hero-section">
-    <div class="hero-text">
-      <h1>Welcome to Ibrahim Lau Provision Shop</h1>
-      <p>Your one-stop shop for daily needs at affordable prices.</p>
-      <a href="#products" class="cta-button">View Our Products</a>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Welcome to Ibrahim Lau Provision Shop</h1>
+        <p>Your one-stop shop for daily needs at affordable prices.</p>
+        <div class="hero-buttons">
+          <a href="#products" class="cta-button">View Our Products</a>
+          <a href="#contact" class="cta-button secondary">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURES SECTION ===== -->
+  <section class="features-section">
+    <div class="container">
+      <h2>Why Choose Us?</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-tag"></i>
+          </div>
+          <h3>Affordable Prices</h3>
+          <p>We offer competitive prices on all our products without compromising quality.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-star"></i>
+          </div>
+          <h3>Quality Products</h3>
+          <p>All our products are carefully selected to ensure the highest quality for our customers.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-truck"></i>
+          </div>
+          <h3>Fast Delivery</h3>
+          <p>We offer quick delivery services to our customers within Kofan Dila and surrounding areas.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-handshake"></i>
+          </div>
+          <h3>Trusted Service</h3>
+          <p>Years of reliable service has made us the trusted choice in our community.</p>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- ===== ABOUT SECTION ===== -->
   <section id="about" class="content-section">
-    <h2>About Us</h2>
-    <p>Ibrahim Lau Provision Shop and General Machines has been serving the Kofan Dila community for years. 
-    We pride ourselves on honesty, quality products, and excellent service. 
-    We are your trusted partner for groceries and household supplies.</p>
+    <div class="container">
+      <h2>About Us</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Ibrahim Lau Provision Shop and General Machines has been serving the Kofan Dila community for years. We pride ourselves on honesty, quality products, and excellent service. We are your trusted partner for groceries and household supplies.</p>
+          <p>Our mission is to provide our customers with high-quality products at affordable prices while maintaining the highest standards of customer service.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <h3>5+</h3>
+              <p>Years of Service</p>
+            </div>
+            <div class="stat">
+              <h3>1000+</h3>
+              <p>Happy Customers</p>
+            </div>
+            <div class="stat">
+              <h3>50+</h3>
+              <p>Products Available</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="https://via.placeholder.com/500x350?text=Our+Shop" alt="Our Shop">
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- ===== PRODUCTS SECTION ===== -->
   <section id="products" class="content-section bg-light">
-    <h2>Our Products</h2>
-    <div class="product-grid">
-      <div class="product-card">
-        <img src="https://via.placeholder.com/300x200?text=Rice" alt="Rice">
-        <h3>Rice</h3>
-        <p>We sell local and imported rice at competitive prices.</p>
+    <div class="container">
+      <h2>Our Products</h2>
+      <p class="section-subtitle">We offer a wide range of quality products for your daily needs</p>
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/300x200?text=Rice" alt="Rice">
+          </div>
+          <div class="product-info">
+            <h3>Rice</h3>
+            <p>We sell local and imported rice at competitive prices.</p>
+            <span class="price">From ₦2,500</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/300x200?text=Cooking+Oil" alt="Cooking Oil">
+          </div>
+          <div class="product-info">
+            <h3>Cooking Oil</h3>
+            <p>High-quality groundnut and palm oil available.</p>
+            <span class="price">From ₦1,800</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/300x200?text=Soap" alt="Soap">
+          </div>
+          <div class="product-info">
+            <h3>Soap & Detergents</h3>
+            <p>We stock all major brands for your cleaning needs.</p>
+            <span class="price">From ₦350</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/300x200?text=Sugar" alt="Sugar">
+          </div>
+          <div class="product-info">
+            <h3>Sugar & Beverages</h3>
+            <p>All kinds of sugar, tea, milk, and beverage items.</p>
+            <span class="price">From ₦1,200</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/300x200?text=Flour" alt="Flour">
+          </div>
+          <div class="product-info">
+            <h3>Flour & Grains</h3>
+            <p>Wheat flour, corn flour, and various grains available.</p>
+            <span class="price">From ₦1,500</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://via.placeholder.com/300x200?text=Spices" alt="Spices">
+          </div>
+          <div class="product-info">
+            <h3>Spices & Seasonings</h3>
+            <p>Complete range of spices and seasonings for your cooking.</p>
+            <span class="price">From ₦250</span>
+          </div>
+        </div>
       </div>
-      <div class="product-card">
-        <img src="https://via.placeholder.com/300x200?text=Cooking+Oil" alt="Cooking Oil">
-        <h3>Cooking Oil</h3>
-        <p>High-quality groundnut and palm oil available.</p>
+      <div class="view-all">
+        <a href="#" class="cta-button">View All Products</a>
       </div>
-      <div class="product-card">
-        <img src="https://via.placeholder.com/300x200?text=Soap" alt="Soap">
-        <h3>Soap & Detergents</h3>
-        <p>We stock all major brands for your cleaning needs.</p>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES SECTION ===== -->
+  <section id="services" class="content-section">
+    <div class="container">
+      <h2>Our Services</h2>
+      <p class="section-subtitle">Beyond products, we offer additional services to our valued customers</p>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-cogs"></i>
+          </div>
+          <h3>Machine Services</h3>
+          <p>We provide maintenance and repair services for general machines and appliances.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-box"></i>
+          </div>
+          <h3>Bulk Orders</h3>
+          <p>Special pricing and delivery arrangements for bulk orders and wholesale customers.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-phone-alt"></i>
+          </div>
+          <h3>Phone Orders</h3>
+          <p>Place your orders by phone and we'll have them ready for pickup or delivery.</p>
+        </div>
       </div>
-      <div class="product-card">
-        <img src="https://via.placeholder.com/300x200?text=Sugar" alt="Sugar">
-        <h3>Sugar & Beverages</h3>
-        <p>All kinds of sugar, tea, milk, and beverage items.</p>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS SECTION ===== -->
+  <section class="testimonials-section bg-light">
+    <div class="container">
+      <h2>What Our Customers Say</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <p>"Ibrahim Lau Shop has been my go-to provision store for years. Their prices are fair and the quality is always excellent."</p>
+          </div>
+          <div class="testimonial-author">
+            <h4>Aliyu S.</h4>
+            <p>Regular Customer</p>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <p>"The customer service here is exceptional. They always go the extra mile to ensure I get what I need."</p>
+          </div>
+          <div class="testimonial-author">
+            <h4>Fatima M.</h4>
+            <p>Local Business Owner</p>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <p>"I appreciate their honesty and reliability. They've never disappointed me with product quality or service."</p>
+          </div>
+          <div class="testimonial-author">
+            <h4>Musa K.</h4>
+            <p>Community Leader</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- ===== CONTACT SECTION ===== -->
   <section id="contact" class="content-section">
-    <h2>Contact Us</h2>
-    <p>We’re always ready to serve you. Reach out to us below:</p>
-    <div class="contact-info">
-      <p><strong>Address:</strong> No. 01 Kofan Dila, Sarkin Dawaki Ward</p>
-      <p><strong>Phone:</strong> +234 813 572 2323</p>
-      <p><strong>Email:</strong> lauibrahimmusa@gmail.com</p>
-      <a href="https://wa.me/2348135722323" target="_blank" class="whatsapp-link">Chat on WhatsApp</a>
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p class="section-subtitle">We're always ready to serve you. Reach out to us below:</p>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Address</h3>
+              <p>No. 01 Kofan Dila, Sarkin Dawaki Ward</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Phone</h3>
+              <p>+234 813 572 2323</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Email</h3>
+              <p>lauibrahimmusa@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div class="contact-details">
+              <h3>Opening Hours</h3>
+              <p>Monday - Saturday: 8:00 AM - 8:00 PM</p>
+              <p>Sunday: 10:00 AM - 6:00 PM</p>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="https://wa.me/2348135722323" target="_blank" class="social-link whatsapp">
+              <i class="fab fa-whatsapp"></i>
+              Chat on WhatsApp
+            </a>
+            <a href="#" class="social-link facebook">
+              <i class="fab fa-facebook-f"></i>
+              Facebook
+            </a>
+          </div>
+        </div>
+        <div class="contact-form">
+          <h3>Send Us a Message</h3>
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <input type="tel" id="phone" placeholder="Your Phone">
+            </div>
+            <div class="form-group">
+              <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="cta-button">Send Message</button>
+          </form>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- ===== FOOTER ===== -->
   <footer>
-    <p>&copy; 2025 Ibrahim Lau Provision Shop and General Machines. All Rights Reserved.</p>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Ibrahim Lau Shop</h3>
+          <p>Your trusted partner for groceries and household supplies in Kofan Dila.</p>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://wa.me/2348135722323" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Info</h3>
+          <ul>
+            <li><i class="fas fa-map-marker-alt"></i> No. 01 Kofan Dila, Sarkin Dawaki Ward</li>
+            <li><i class="fas fa-phone"></i> +234 813 572 2323</li>
+            <li><i class="fas fa-envelope"></i> lauibrahimmusa@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Ibrahim Lau Provision Shop and General Machines. All Rights Reserved.</p>
+      </div>
+    </div>
   </footer>
 
   <script src="script.js"></script>
